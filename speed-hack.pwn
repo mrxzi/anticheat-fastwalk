@@ -260,7 +260,7 @@ hook OnPlayerUpdate(playerid)
 			SendAdminMessage(X11_RED, "[AntiCheat]:"YELLOW" %s(%d)"LIGHTGREY" telah ditendang dari server karena diduga menggunakan speed hack / fast walk"YELLOW" [Kecepatan: %.1f km/h]", ReturnName(playerid), playerid, playerSpeedFloat);
 			
 			format(Strcmd1, sizeof(Strcmd1), "{FFFFFF}Halo, {FF000E}%s\n\n{FFFFFF}Anda telah dikeluarkan karena diduga: {FF000E}Speed Hack / Fast Walk\n\n{FFFFFF}Kecepatan terdeteksi: {FF000E}%.1f km/h\n{FFFFFF}Kecepatan maksimal: {00FF00}%.1f km/h\n\n{FFFFFF}Catatan: Jika pelanggaran ini terus berlanjut, hukuman akan lebih berat. Jika ini adalah kesalahan\nsilakan hubungi Admin!", GetPlayerNameEx(playerid), playerSpeedFloat, MAX_ONFOOT_SPEED);
-			ShowPlayerDialog(playerid, 0, DIALOG_STYLE_MSGBOX, "Croire | Anti-Cheater", Strcmd1, "Oke", "");
+			ShowPlayerDialog(playerid, 0, DIALOG_STYLE_MSGBOX, "JADEN | ANTICHEAT", Strcmd1, "Oke", "");
 			
 			KickEx(playerid);
 			
@@ -285,7 +285,7 @@ hook OnPlayerUpdate(playerid)
 			SendAdminMessage(X11_RED, "[AntiCheat]:"YELLOW" %s(%d)"LIGHTGREY" telah ditendang dari server karena diduga menggunakan speed hack / fast walk"YELLOW" [Kecepatan: %.1f km/h]", ReturnName(playerid), playerid, playerSpeedFloat);
 			
 			format(Strcmd1, sizeof(Strcmd1), "{FFFFFF}Halo, {FF000E}%s\n\n{FFFFFF}Anda telah dikeluarkan karena diduga: {FF000E}Speed Hack / Fast Walk\n\n{FFFFFF}Kecepatan terdeteksi: {FF000E}%.1f km/h\n{FFFFFF}Kecepatan maksimal: {00FF00}%.1f km/h\n\n{FFFFFF}Catatan: Jika pelanggaran ini terus berlanjut, hukuman akan lebih berat. Jika ini adalah kesalahan\nsilakan hubungi Admin!", GetPlayerNameEx(playerid), playerSpeedFloat, MAX_ONFOOT_SPEED);
-			ShowPlayerDialog(playerid, 0, DIALOG_STYLE_MSGBOX, "Croire | Anti-Cheater", Strcmd1, "Oke", "");
+			ShowPlayerDialog(playerid, 0, DIALOG_STYLE_MSGBOX, "JADEN | ANTICHEAT", Strcmd1, "Oke", "");
 			
 			KickEx(playerid);
 			
@@ -323,7 +323,7 @@ public OnPlayerSpeedHack(playerid, Float:speed)
 	SendAdminMessage(X11_RED, "[AntiCheat]:"YELLOW" %s(%d)"LIGHTGREY" telah ditendang dari server karena diduga menggunakan speed hack / fast walk"YELLOW" [Kecepatan: %.1f km/h]", ReturnName(playerid), playerid, speed);
 	
 	format(Strcmd1, sizeof(Strcmd1), "{FFFFFF}Halo, {FF000E}%s\n\n{FFFFFF}Anda telah dikeluarkan karena diduga: {FF000E}Speed Hack / Fast Walk\n\n{FFFFFF}Kecepatan terdeteksi: {FF000E}%.1f km/h\n{FFFFFF}Kecepatan maksimal: {00FF00}%.1f km/h\n\n{FFFFFF}Catatan: Jika pelanggaran ini terus berlanjut, hukuman akan lebih berat. Jika ini adalah kesalahan\nsilakan hubungi Admin!", GetPlayerNameEx(playerid), speed, MAX_ONFOOT_SPEED);
-	ShowPlayerDialog(playerid, 0, DIALOG_STYLE_MSGBOX, "Croire | Anti-Cheater", Strcmd1, "Oke", "");
+	ShowPlayerDialog(playerid, 0, DIALOG_STYLE_MSGBOX, "JADEN | ANTICHEAT", Strcmd1, "Oke", "");
 	
 	KickEx(playerid);
 	return 1;
@@ -397,7 +397,7 @@ public CheckPlayerSpeedTimer(playerid)
 			SendAdminMessage(X11_RED, "[AntiCheat]:"YELLOW" %s(%d)"LIGHTGREY" telah ditendang dari server karena diduga menggunakan speed hack / fast walk"YELLOW" [Kecepatan: %.1f km/h]", ReturnName(playerid), playerid, playerSpeedFloat);
 			
 			format(Strcmd1, sizeof(Strcmd1), "{FFFFFF}Halo, {FF000E}%s\n\n{FFFFFF}Anda telah dikeluarkan karena diduga: {FF000E}Speed Hack / Fast Walk\n\n{FFFFFF}Kecepatan terdeteksi: {FF000E}%.1f km/h\n{FFFFFF}Kecepatan maksimal: {00FF00}%.1f km/h\n\n{FFFFFF}Catatan: Jika pelanggaran ini terus berlanjut, hukuman akan lebih berat. Jika ini adalah kesalahan\nsilakan hubungi Admin!", GetPlayerNameEx(playerid), playerSpeedFloat, MAX_ONFOOT_SPEED);
-			ShowPlayerDialog(playerid, 0, DIALOG_STYLE_MSGBOX, "Croire | Anti-Cheater", Strcmd1, "Oke", "");
+			ShowPlayerDialog(playerid, 0, DIALOG_STYLE_MSGBOX, "JADEN | ANTICHEAT", Strcmd1, "Oke", "");
 			
 			KickEx(playerid);
 			return 1;
@@ -417,7 +417,7 @@ public CheckPlayerSpeedTimer(playerid)
 			SendAdminMessage(X11_RED, "[AntiCheat]:"YELLOW" %s(%d)"LIGHTGREY" telah ditendang dari server karena diduga menggunakan speed hack / fast walk"YELLOW" [Kecepatan: %.1f km/h]", ReturnName(playerid), playerid, playerSpeedFloat);
 			
 			format(Strcmd1, sizeof(Strcmd1), "{FFFFFF}Halo, {FF000E}%s\n\n{FFFFFF}Anda telah dikeluarkan karena diduga: {FF000E}Speed Hack / Fast Walk\n\n{FFFFFF}Kecepatan terdeteksi: {FF000E}%.1f km/h\n{FFFFFF}Kecepatan maksimal: {00FF00}%.1f km/h\n\n{FFFFFF}Catatan: Jika pelanggaran ini terus berlanjut, hukuman akan lebih berat. Jika ini adalah kesalahan\nsilakan hubungi Admin!", GetPlayerNameEx(playerid), playerSpeedFloat, MAX_ONFOOT_SPEED);
-			ShowPlayerDialog(playerid, 0, DIALOG_STYLE_MSGBOX, "Croire | Anti-Cheater", Strcmd1, "Oke", "");
+			ShowPlayerDialog(playerid, 0, DIALOG_STYLE_MSGBOX, "JADEN | ANTICHEAT", Strcmd1, "Oke", "");
 			
 			KickEx(playerid);
 			return 1;
